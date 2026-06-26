@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 
 
-export function App() {
+function App() {
   const [data, setData] = useState([]);
 
   const fetchData = async () => {
@@ -36,3 +36,5 @@ export function App() {
     </div>
   )
 }
+
+export default App;
