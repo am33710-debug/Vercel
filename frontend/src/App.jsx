@@ -25,8 +25,8 @@ function App() {
     <div id='app'>
       <h1>Connecting to Vercel</h1>
       <div id='data-container' style={{
-        display: flex,
-        flexDirection: column,
+        display: "flex",
+        flexDirection: "column",
       }}>
 
         {data && data.map((d) => <span key={d.id}>
